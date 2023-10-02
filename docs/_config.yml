@@ -37,7 +37,7 @@ enable_copy_code_button: true
 
 nav_external_links:
   - title: GitHub Repo
-    url: https://github.com/EMS-TU-Ilmenau/isac-uav-dataset-docs
+    url: https://github.com/EMS-TU-Ilmenau/isac-uav-dataset
     hide_icon: false
 
 callouts:
