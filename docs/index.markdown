@@ -24,3 +24,18 @@ The dataset provides contains the time-variant Channel Transfer functions in com
 {: .note}
 The dataset, and in particulary this documentation, are still under active development. 
 If you find any errors or missing information, please do not hesitate to [contact us](mailto:steffen.schieler@tu-ilmenau.de).
+
+## Visualization Demo
+Here is a small demo from the dataset, embedded from Huggingface Spaces.
+It uses the `1to2_H15_V11`-scenario, which is a single-target scenario with a UAV.
+The plots show the delay-Doppler maps for the three receivers, as well as the groundtruth from the UAV (white circle).
+Use the slider to walk through the measurement by changing the slow-time window index.
+
+<iframe
+	src="https://ems-tu-ilmenau-isac-uav-dataset-demo.hf.space"
+	frameborder="0"
+	width="800"
+	height="500"
+></iframe>
+
+[View on Huggingface](https://huggingface.co/spaces/EMS-TU-Ilmenau/isac-uav-dataset-demo)
