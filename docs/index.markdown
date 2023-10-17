@@ -28,7 +28,7 @@ If you find any errors or missing information, please do not hesitate to [contac
 ## Visualization Demo
 Here is a small demo from the dataset, embedded from Huggingface Spaces.
 It uses the `1to2_H15_V11`-scenario, which is a single-target scenario with a UAV.
-The plots show the delay-Doppler maps for the three receivers, as well as the groundtruth from the UAV (white circle).
+The plots show the delay-Doppler maps from two of the three receivers, as well as the groundtruth from the UAV (white circle).
 Use the slider to walk through the measurement by changing the slow-time window index.
 
 <iframe
