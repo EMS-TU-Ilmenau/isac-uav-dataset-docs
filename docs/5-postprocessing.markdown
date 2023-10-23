@@ -8,9 +8,6 @@ title: Data Postprocessing
 nav_order: 5
 ---
 
-{: .warning}
-This site is under construction. Provided information might not be correct or complete.
-
 # Applied Postprocessing Steps
 Raw data from wireless channel measurement campaigns, as present in this dataset, takes a lot of file storage capacity.
 Any reduction, e.g., via undersampling, is usually directly related to a loss of accessible channel properties.
