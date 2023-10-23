@@ -5,7 +5,7 @@
 layout: page
 permalink: /references/
 title: Citation & References
-nav_order: 4
+nav_order: 6
 ---
 
 # Citation
