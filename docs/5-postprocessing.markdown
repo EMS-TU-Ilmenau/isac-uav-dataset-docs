@@ -23,11 +23,11 @@ They rather deal with accounting for the legal aspects in the used frequency ban
 
 ## Rx Systems
 
-The configuration parameters of our measurement system were introduced in the [measurement](/4-measurement.markdown) section.
+The configuration parameters of our measurement system were introduced in the measurement section.
 | Parameter                | Value        | Comment                               |
 | ------------------------ | ------------ | ------------------------------------- |
 | Center Frequency         | 3.75 GHz     | Band center                           |
-| Sampling Rate            | 100 MSPS     | [MSamples/s]                          |
+| Sampling Rate            | 100 MSPS     | MSamples/s                            |
 | Bandwidth                | 80 MHz       | Effective bandwidth without Guardband |
 | Symbol Length            | 16 $$\mu s$$ | OFDM Symbol length                    |
 | Subcarrier Spacing       | 62.5 kHz     | Inverse of Symbol length              |
