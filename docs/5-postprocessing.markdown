@@ -23,7 +23,8 @@ They rather deal with accounting for the legal aspects in the used frequency ban
 
 ## Rx Systems
 
-The configuration parameters of our measurement system were introduced in the measurement section.
+The configuration parameters of our measurement system were introduced in the measurement section.  
+
 | Parameter                | Value        | Comment                               |
 | ------------------------ | ------------ | ------------------------------------- |
 | Center Frequency         | 3.75 GHz     | Band center                           |
@@ -48,7 +49,7 @@ $$ Y(f) = X(f) \cdot H(f)$$.
 
 To obtain the CIRs we need to perform deconvoution of the received signal with the transmitted signal via
 
-$$ H(f) = Y(f) \cdot X(f)$$.
+$$ H(f) = Y(f) \cdot X(f)^{-1}$$.
 
 This works, because we use a multi-sine measurement signal with a nearly constant envelope for $$X(f)$$, hence, there are no zeros in the signal which would result in a division by zero.
 In this step we use $$X_{\text{cal}}$$ instead of $$X(f)$$, which we obtaine from a Back-to-Back (B2B) calibration measurement.
