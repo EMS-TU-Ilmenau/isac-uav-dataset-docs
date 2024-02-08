@@ -60,7 +60,7 @@ The setup for the B2B calibration measurement is illustrated in the following fi
 The B2B calibration measurement is performed by connecting the Tx sequentially to each Rx by a coaxial cable.
 Using the same Tx and Rx hardware as in the measurement, we recorded 1 minute of data $$X_{\textbf{b2b}}$$ for each Tx-Rx combination.
 By also acounting for the frequency response of the coaxial cable, we can then (ideally) remove the frequency response of most used hardware components, except for the antennas.
-To obtain $$X_cal$$, we first averaged over the frequency domain of all OFDM symbols in $$X_{\textbf{b2b}}$$ and computed 
+To obtain $$X_{\text{cal}}$$, we first averaged over the frequency domain of all OFDM symbols in $$X_{\textbf{b2b}}$$ and computed 
 
 $$ X_{\text{cal}} = \frac{X_{\textbf{b2b}}}{H_{\text{coax}}}$$
 
