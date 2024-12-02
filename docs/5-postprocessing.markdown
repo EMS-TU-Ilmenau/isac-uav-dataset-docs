@@ -81,7 +81,7 @@ This downsampling reduces the Doppler-Bandwidth of the data, but does not affect
 
 The original Doppler-Bandwidth $$B_\alpha$$ corresponds to the Subcarrier Spacing $$\Delta_{sc}$$ of the OFDM-like measurement signal.
 
-$$B_\alpha \in -\frac{1}{2 \Delta_{sc}} ... +\frac{1}{2 \Delta_{sc}}$$
+$$B_\alpha \in -\frac{\Delta_{sc}}{2} ... +\frac{\Delta_{sc}}{2}$$
 
 To compute the maximum Doppler-shift in the scenarios we need to consider the formula for the multistatic Doppler-shift $$\alpha$$ with static transmitter and receiver positions:
 
